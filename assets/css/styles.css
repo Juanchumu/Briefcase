@@ -1,0 +1,130 @@
+
+/**/
+
+
+
+/* Retoques del header */
+
+header{
+  display: block;
+  width: 100%;
+}
+
+header .Manga{
+  padding-top: 1px;
+  display: block;
+  height: 120px;
+  background-color: rgba(81, 75, 255, 0.5);
+  box-shadow: 0px 0px 30px black inset;
+  border-radius: 15px;
+
+}
+
+
+header h1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  text-align: center;
+  display: block;
+  background-color: #aaa;
+  border: 2px solid #9b9b9b;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 57px;
+}
+header ul{
+  padding-top: 10px;
+  padding-left: 0px;
+  text-align: left;
+  display: block;
+  width: 80%;
+  height: inherit;
+  margin: 0px auto;
+  margin-top: -3px;
+
+
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 60px;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+header ul li a{
+  display: block;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: inherit;
+  text-decoration: none;
+  color: black;
+  transition: all 300ms;
+  background: #33ffe2;
+  border-radius: 10px 10px 0px 0px;
+  width: 80px;
+}
+
+header a:hover, .active{
+  background: rgb(253, 255, 143);
+  }
+
+
+
+/*Contenedor Principal*/
+
+#contenido{
+
+  min-height: 600px;
+  height: auto;
+  width: 80%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 40px black;
+  border-left: 1px solid #b7b7b7;
+  border-right:  1px solid #b7b7b7;
+  background: rgba(253, 255, 177, 0.7);
+  padding-top: 20px;
+
+}
+
+
+/*Pie de pagina*/
+
+footer{
+  display: block;
+  text-align: center;
+  padding-top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81, 75, 255, 0.5);
+  box-shadow: 0px 0px 30px black inset;
+  border-radius: 15px;
+}
+
+/*Componente Error*/
+
+.error_not_found{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.error_not_found_number{
+  font-size: 40px;
+}
+.span_error{
+  padding-top: 20px;
+  display: block;
+  margin:auto;
+  text-align: center;
+
+}
+
+
+/**/
+/**/
+/**/
+/**/
