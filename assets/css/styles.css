@@ -1,5 +1,10 @@
 
-/**/
+/*Fuentes*/
+
+@font-face {
+font-family: "astroarmada";
+src: url("../fonts/astroarmada.ttf");
+}
 
 
 
@@ -22,6 +27,7 @@ header .Manga{
 
 
 header h1{
+  font-family: "astroarmada", monospace;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 40%;
@@ -122,9 +128,20 @@ footer{
   text-align: center;
 
 }
+/*Componente Blog*/
+
+.container{
+  display: block;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 35px;
+  padding-left: 15px;
+  border: 2px solid black;
+  box-shadow: 10px 10px gray;
+}
+/*Componente About*/
 
 
-/**/
-/**/
+
 /**/
 /**/
