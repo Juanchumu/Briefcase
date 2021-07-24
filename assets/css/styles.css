@@ -6,8 +6,6 @@ font-family: "astroarmada";
 src: url("../fonts/astroarmada.ttf");
 }
 
-
-
 /* Retoques del header */
 
 header{
@@ -33,11 +31,24 @@ header .Panel_Superior{
   background-color: white;
 }
 
-header h1{
+.Titulo_inside_Briefcase{
   font-family: "astroarmada", monospace;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 40%;
+  text-align: center;
+  display: block;
+  background-color: #aaa;
+  border: 2px solid #9b9b9b;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 0px;
+}
+.Titulo_inside_Briefcase_Android{
+  font-family: "astroarmada", monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
   text-align: center;
   display: block;
   background-color: #aaa;
@@ -91,13 +102,18 @@ header a:hover, .active{
   padding-right: 10px;
   background-color: rgba(81, 75, 255, 0.5);
 }
+.Briefcase_section_walls_Android{
+}
 .Inside_Briefcase_section{
   padding-left: 10px;
   padding-right: 10px;
   background-color: white;
 }
+.Inside_Briefcase_section_Android{
 
-#contenido{
+}
+
+#Briefcase_Contenido{
 
   min-height: 600px;
   height: auto;
@@ -110,7 +126,19 @@ header a:hover, .active{
   padding-top: 20px;
 
 }
+#Briefcase_Contenido_Android{
 
+  min-height: 600px;
+  height: auto;
+  width: 100%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 40px black;
+  border-left: 1px solid #b7b7b7;
+  border-right:  1px solid #b7b7b7;
+  background: rgba(253, 255, 177, 0.7);
+  padding-top: 20px;
+
+}
 
 /*Pie de pagina*/
 
@@ -138,6 +166,9 @@ footer{
   margin: auto;
   margin-top: 0px;
 }
+
+
+
 
 /*Componente Error*/
 
