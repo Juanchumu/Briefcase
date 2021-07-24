@@ -170,7 +170,22 @@ footer{
   height: 100%;
   background-color: rgba(81, 75, 255, 0.5);
   box-shadow: 0px 0px 30px black inset;
-  border-radius: 15px;
+  border-radius: 0px 0px 15px 15px;
+}
+.Briefcase_Down{
+  display: flex;
+}
+.Briefcase_Lock{
+  background-color: gray;
+  height: 30px;
+  width: auto;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px 0px 15px 15px;
+
 }
 
 #heading-Asa{
@@ -218,21 +233,21 @@ footer{
 
 
 /*Componente About*/
-.logo_unlu{
-  position: absolute;
+.logo_unlu img{
+  height: 80px;
+  width: 80px;
+  position: inherit;
+  align-content: center;
+  transform-style: preserve-3d;
   animation: girologounlu 5s infinite;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
 }
-@@keyframes girologounlu {
-  from {
-    transform: rotateY(0deg);
-    transform-style: preserve-3d;
-  }
-  to {
-    transform-style: preserve-3d;
-    transform: rotateY(60deg);
-
-  }
-
+@keyframes girologounlu{
+  from {transform: rotateY(0deg);
+        transform-style: preserve-3d;}
+  to {transform: rotateY(360deg);
+      transform-style: preserve-3d;}
 }
 
 
