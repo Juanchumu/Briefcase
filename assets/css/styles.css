@@ -5,7 +5,11 @@
 font-family: "astroarmada";
 src: url("../fonts/astroarmada.ttf");
 }
-
+/*Retoques del Body*/
+body{
+  margin-left: 0px;
+  margin-right: 0px;
+}
 /* Retoques del header */
 
 header{
@@ -23,12 +27,13 @@ header .Panel_Superior{
 .Briefcase_header_walls{
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgba(81, 75, 255, 0.5);
+  background-color: rgb(40, 39, 61);
 }
 .Inside_Briefcase_header{
   padding-left: 10px;
   padding-right: 10px;
-  background-color: white;
+  background: url("../img/magnolia-3324074_128.png");
+  background-position: center;
 }
 
 .Titulo_inside_Briefcase{
@@ -57,9 +62,13 @@ header .Panel_Superior{
   margin: auto;
   margin-top: 0px;
 }
-.Pestañas{
+.Pestanias{
   width: 90%;
-  margin: 0px auto;
+  margin: auto;
+}
+.Pestanias_Android{
+  width: 90%;
+  margin: 0px;
 }
 header ul{
   padding-left: 0px;
@@ -100,14 +109,15 @@ header a:hover, .active{
 .Briefcase_section_walls{
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgba(81, 75, 255, 0.5);
+  background-color: rgb(40, 39, 61);
 }
 .Briefcase_section_walls_Android{
 }
 .Inside_Briefcase_section{
   padding-left: 10px;
   padding-right: 10px;
-  background-color: white;
+  background: url("../img/magnolia-3324074_128.png");
+  background-position: center;
 }
 .Inside_Briefcase_section_Android{
 
@@ -122,7 +132,7 @@ header a:hover, .active{
   box-shadow: 0px 0px 40px black;
   border-left: 1px solid #b7b7b7;
   border-right:  1px solid #b7b7b7;
-  background: rgba(253, 255, 177, 0.7);
+  background: rgba(253, 255, 177);
   padding-top: 20px;
 
 }
@@ -138,6 +148,16 @@ header a:hover, .active{
   background: rgba(253, 255, 177, 0.7);
   padding-top: 20px;
 
+}
+.container{
+  display: block;
+  background-color: white;
+  margin-left: 25px;
+  margin-right: 35px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid black;
+  box-shadow: 10px 10px gray;
 }
 
 /*Pie de pagina*/
@@ -168,7 +188,10 @@ footer{
 }
 
 
-
+/*Comun entre componentes*/
+.h1_component{
+  text-decoration: underline;
+}
 
 /*Componente Error*/
 
@@ -176,8 +199,9 @@ footer{
   margin: auto;
   width: 200px;
   text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 15px;
+  background-color: white;
 }
 .error_not_found_number{
   font-size: 40px;
@@ -191,17 +215,25 @@ footer{
 }
 /*Componente Blog*/
 
-.container{
-  display: block;
-  background-color: white;
-  margin-left: 25px;
-  margin-right: 35px;
-  padding-left: 15px;
-  border: 2px solid black;
-  box-shadow: 10px 10px gray;
-}
-/*Componente About*/
 
+
+/*Componente About*/
+.logo_unlu{
+  position: absolute;
+  animation: girologounlu 5s infinite;
+}
+@@keyframes girologounlu {
+  from {
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+  }
+  to {
+    transform-style: preserve-3d;
+    transform: rotateY(60deg);
+
+  }
+
+}
 
 
 /**/
