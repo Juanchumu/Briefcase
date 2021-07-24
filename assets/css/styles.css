@@ -15,16 +15,23 @@ header{
   width: 100%;
 }
 
-header .Manga{
-  padding-top: 1px;
+header .Panel_Superior{
   display: block;
-  height: 120px;
   background-color: rgba(81, 75, 255, 0.5);
+  height: 20px;
+  border-radius: 15px 15px 0px 0px;
   box-shadow: 0px 0px 30px black inset;
-  border-radius: 15px;
-
 }
-
+.Briefcase_header_walls{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(81, 75, 255, 0.5);
+}
+.Inside_Briefcase_header{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
 
 header h1{
   font-family: "astroarmada", monospace;
@@ -37,19 +44,17 @@ header h1{
   border: 2px solid #9b9b9b;
   border-radius: 15px;
   margin: auto;
-  margin-top: 57px;
+  margin-top: 0px;
+}
+.Pestañas{
+  width: 90%;
+  margin: 0px auto;
 }
 header ul{
-  padding-top: 10px;
   padding-left: 0px;
   text-align: left;
-  display: inline-flex;
-  width: 80%;
-  height: inherit;
-  margin: 0px auto;
-  margin-top: -3px;
-
-
+  display: inline-block;
+  margin-bottom: 0px;
 }
 
 header ul li{
@@ -81,11 +86,22 @@ header a:hover, .active{
 
 /*Contenedor Principal*/
 
+.Briefcase_section_walls{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgba(81, 75, 255, 0.5);
+}
+.Inside_Briefcase_section{
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+}
+
 #contenido{
 
   min-height: 600px;
   height: auto;
-  width: 80%;
+  width: 90%;
   margin: 0px auto;
   box-shadow: 0px 0px 40px black;
   border-left: 1px solid #b7b7b7;
@@ -107,6 +123,20 @@ footer{
   background-color: rgba(81, 75, 255, 0.5);
   box-shadow: 0px 0px 30px black inset;
   border-radius: 15px;
+}
+
+#heading-Asa{
+  font-family: "astroarmada", monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 40%;
+  text-align: center;
+  display: block;
+  background-color: #aaa;
+  border: 2px solid #9b9b9b;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 0px;
 }
 
 /*Componente Error*/
