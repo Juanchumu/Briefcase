@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Proyectos de Github: </h1>
+  <hr>
+  <p>Aqui se encuentran herramientas que generalmente uso y comparto, algunas estan en desarrollo y no son funcionales
+  pero en algun momento estaran terminadas:
+  </p>
+  <ul>
+	  <li *ngFor="let item of Lista.lista_de_proyectos; let i = index">
+		<h3>{{item.titulo}}</h3>
+		<p>{{item.descripcion}}</p>
+		<span>Lenguaje: {{item.lenguaje}} </span>
+		<span>Framework: {{item.hechoen}}</span>
+		<p>{{item.versiones}}</p>
+		<a href="#">{{item.link}}</a>
+	  <br>
+	  <span>Estado: {{item.estado}}</span>
+	</li>
+  </ul>
+
+
+</div>

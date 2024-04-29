@@ -1,0 +1,22 @@
+<header>
+	<div>
+      <div class="Pestanias">
+        <ul>
+			<li><a [routerLink]="['/Blog']" [routerLinkActive]="['active']" >Blog</a></li>
+			<li><a [routerLink]="['/Proyects']" [routerLinkActive]="['active']" >Proyectos</a></li>
+			<li><a [routerLink]="['/About']" [routerLinkActive]="['active']" >Contacto</a></li>
+			<li><a class="Titulo_inside_Briefcase">Briefcase V4 by Juanchumu</a></li>
+		</ul>
+      </div>
+	</div>
+
+</header>
+    <section id="Briefcase_Contenido">
+      <router-outlet></router-outlet>
+    </section>
+
+<footer>
+      <span>La maquetacion no es tanto, pero es propia.</span>
+    <p id="heading-Asa">https://juanchumu.github.io/Briefcase/</p>
+		<span>Briefcase04.230477</span>
+</footer>

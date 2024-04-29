@@ -1,0 +1,59 @@
+<div class="container">
+	<div class="Blog_maquetacion">
+		<span class="Blog_Izq">
+			<div class="Blog_Header">
+				<h2>Bienvenido al Blog</h2>
+				<p>Debajo vas a encontrar mis tweets que pronto seran entradas dignas de un blog.</p>
+			</div>
+			<div>
+				<div class="Array_Entradas">
+					<h4 class="Entrada_h4">{{Lista.lista_entradas[0].fecha}}</h4>
+				<h3 class="Entrada_h3">{{Lista.lista_entradas[0].titulo}}</h3>
+				<p class="Entrada_p">{{Lista.lista_entradas[0].p}}</p>
+				<div [innerHTML]="Lista.lista_entradas[0].contenido"></div>
+			</div>
+			<div><button type="button" (click)="Mostrar_Entradas()">Desplegar todas las Entradas</button></div>
+			</div>
+			<div *ngIf="Boton_Mostrar">
+			<div *ngFor="let element of Lista.lista_entradas; let i = index" class="Array_Entradas">
+				<h4 class="Entrada_h4">{{element.fecha}}</h4>
+				<h3 class="Entrada_h3">{{element.titulo}}</h3>
+				<p class="Entrada_p">{{element.p}}</p>
+				<div [innerHTML]="element.contenido"></div>
+			</div>
+			</div>
+		</span>
+		<span class="Blog_Der">
+			<div>
+				<div>
+					<input type="text" value="Buscar en el blog...">
+					<button type="button">Lupa</button>
+				</div>
+				<br>
+				<br>
+			<div>
+				<span>Historial: </span>
+				<ul>
+					<li>Agosto
+					</li>
+					<li>Febrero
+					</li>
+					<li>Enero
+					</li>
+				</ul>
+			</div>
+			<div>
+				<span>Tags: </span>
+				<ul>
+					<li>Biologia
+					</li>
+					<li>Autos
+					</li>
+					<li>Energia_Nuclear
+					</li>
+				</ul>
+			</div>
+		</div>
+		</span> 
+		</div>
+</div>

@@ -1,0 +1,35 @@
+/*Modificar el conteiner*/
+.CV{
+display: flex;
+background-color: #e7e6e6;
+color: #1b1b1b;
+}
+
+.CV_izq{
+font-size: 10px;
+width: 30%;
+margin-right:10px;
+}
+.CV_img{
+text-align:center;
+padding-top: 10px;
+width:auto;
+height: 200px;
+border-radius: 999px;
+}
+
+
+.CV_der{
+	background-color: #fefefe;
+	border-top-left-radius: 80px;
+	font-size: 12px;
+	width:100%;
+	padding-top:20px;
+	padding-left:20px;
+}
+
+/*decoracion de texto*/
+
+.en_negrita{ color: #1b1b1b;}
+.en_grisito{ color: #595656;}
+.en_grisitoclaro{ color: #696d71;}

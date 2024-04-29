@@ -1,0 +1,11 @@
+li{
+display: inline-block;
+width:auto;
+background-color: #fefefe;
+margin: 20px;
+padding: 20px;
+width: 400px;
+border-top-left-radius: 80px;
+border-bottom-right-radius: 80px;
+}
+

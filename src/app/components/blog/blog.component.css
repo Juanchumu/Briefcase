@@ -1,0 +1,43 @@
+.container{
+padding-left: 0px;
+}
+
+.Blog_maquetacion{
+display:flex;
+}
+.Blog_Izq{
+padding-left: 10px;
+width:70%;
+}
+.Blog_Der{
+padding-left: 20px;
+width:30%;
+padding-top: 30px;
+background: #fefefe;
+border-top-left-radius: 80px;
+
+}
+.Array_Entradas{
+background: #fefefe;
+padding:10px;
+margin-right:10px;
+margin-bottom:10px;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+.Entrada_h4{
+margin-top:0px;
+text-align: end ;
+font-size: 12px;
+}
+.Entrada_h3{
+text-align:center;
+font-size: 14px;
+}
+.Entrada_p{
+font-size:12px;
+
+}
+
+
+

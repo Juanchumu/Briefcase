@@ -1,0 +1,153 @@
+
+
+body {
+	background: #686868;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top:0px;
+	font-family: Helvetica; 
+}
+
+/*Retoques del header*/
+
+header{
+display: block;
+width: 100%;
+margin-top:0px;
+background-color: #686868;
+}
+.Pestanias{
+	width: 90%;
+margin: 0px auto;
+}
+
+
+header ul{
+  padding-left: 0px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 0px;
+  min-width: 600px;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  line-height: 60px;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+header ul li a{
+  display: block;
+  padding-right: 8px;
+  padding-left: 8px;
+  height: inherit;
+  text-decoration: none;
+  color: black;
+  transition: all 300ms;
+  background: #808080;
+  border-radius: 10px 10px 0px 0px;
+  width: 80px;
+}
+.Titulo_inside_Briefcase{
+	width: auto;
+  background: #494949;
+}
+
+header a:hover, .active{
+background: rgba(208,208,208);
+  }
+
+
+#Briefcase_Contenido{
+
+  min-height: 600px;
+  min-width: 794px;
+  height: auto;
+  width: 90%;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  border-top-right-radius: 10px;
+  box-shadow: 0px 0px 40px black;
+  border-left: 0px solid #b7b7b7;
+  border-right:  0px solid #b7b7b7;
+  background: rgba(208,  208, 208);
+  padding-top: 20px;
+
+}
+#Briefcase_Contenido_Android{
+
+  min-height: 600px;
+  height: auto;
+  width: 100%;
+  margin: 0px auto;
+  box-shadow: 0px 0px 40px black;
+  border-left: 0px solid #b7b7b7;
+  border-right:  0px solid #b7b7b7;
+  background: rgba(253, 255, 177, 0.7);
+  padding-top: 20px;
+
+}
+.container{
+  display: block;
+  background-color: #e7e6e6;
+  margin-left: 25px;
+  margin-right: 35px;
+  padding-bottom: 35px;
+  padding-left: 15px;
+  padding-right: 0px;
+  border: 1px solid black;
+  box-shadow: 10px 10px gray;
+}
+hr{
+margin-right: 15px; 
+}
+
+/*Pie de pagina*/
+
+footer{
+	margin: 0px auto;
+  text-align: center;
+  padding-top: 0px;
+  width: 90%;
+  min-width: 794px;
+  height: 100%;
+  background-color: #c3c3c3;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 30px 40px black;
+}
+
+
+/*Comun entre componentes*/
+.h1_component{
+  text-decoration: underline;
+}
+
+/*Componente Error*/
+
+.error_not_found{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
+.error_not_found_number{
+  font-size: 40px;
+}
+.span_error{
+  padding-top: 20px;
+  display: block;
+  margin:auto;
+  text-align: center;
+
+}
+/*Componente Blog*/
+
+
+
+/*Componente About*/
+
